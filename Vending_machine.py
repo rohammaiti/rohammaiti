@@ -62,7 +62,7 @@ while run_vend == True:
         if query == i['code']:
             item = i
     if item == '':
-        print('INVALID CODE')
+        print('Invalid Code')
     else:
         print(f"Great, {item['name']} will cost you {item['price']} Rupees")
 
