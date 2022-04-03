@@ -68,7 +68,7 @@ while run_vend == True:
 
         price = int(input(f"Enter {item['price']} money to purchase: "))
         if price == item['price']:
-            print(f"Thank you for buying here is your {item['name']}")
+            print(f"Thank you for buying, here is your {item['name']}")
         elif price > item['price']:
             print("The balance amount is:", price-item['price'])
         else:
@@ -206,3 +206,4 @@ while run_vend == True:
     
     
 # This project has been developed independently by me(Roham Maiti) so no illegal coppyig ;).
+
