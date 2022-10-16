@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europe tour guide</title>
+</head>
+
+<body style="background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+"  vlink="blue" link="red">
+     <h1 style="background-color:bisque; text-align: center;" ><u>EUROPE TOUR AND TRAVEL GUIDE</u></h1>
+     <button id="confirm1" title="Gives details about us" onclick="confirmation1()">About us</button>  
+     <button id="confirm2" title="Special details" onclick="confirmation2()">Guidlines</button> 
+    <hr>
+    <div class="BODY">
+        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" id="01">
+            <font size="5">
+                Welcome to "EUROPE TOUR AND TRAVEL GUIDE". This website gives informtion about 4 best places of Europe namely<br>
+                <ol type="1">
+                    <li><a href="Paris.html">Paris</a></li>
+                    <li><a href="London.html">London</a></li>
+                    <li><a href="Rome.html">Rome</a></li>
+                    <li><a href="Barcellona.html">Barcelona</a></li>
+                </ol>
+            </font>
+        </p>
+        <p id="02">
+            <font size="5">
+                Our services include giving advice to tourists about these places like best time to visit, hotels available, climate<br>
+                tourist spots and different must try cuisines of the place. Hope you will like our services !!
+            </font>
+        </p>
+    </div>
+
+    <img srcset="P.jpg" width="300" height="200">  <img srcset="L.jpg" width="300" height="200">  <img srcset="R.jpg" width="300" height="200">  <img srcset="B.jpg" width="300" height="200">
+</body>
+<hr>
+<h4>This website is used for getting intermediate informations for travellers who are in rush.
+    People are requested to go through other relevant sites also for better details.
+    We do not take "ANY KIND OF BOOKING" for hotels or whatsover.
+</h4>
+
+<script>
+    function confirmation1()
+    {
+        let text ="Do you want to continue?";
+        if(confirm(text)==true)
+        {
+            window.location="About.html";
+        }
+        else
+        {
+            window.location="Main.html";
+        }
+        document.getElementById("confirm1").innerHTML=text;
+    }
+    function confirmation2()
+    {
+        let text ="Do you want to continue?";
+        if(confirm(text)==true)
+        {
+            window.location="Guidlines.html";
+        }
+        else
+        {
+            window.location="Main.html";
+        }
+        document.getElementById("confirm2").innerHTML=text;
+    }
+</script>
+
+</html>

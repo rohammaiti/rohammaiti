@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rome</title>
+    <style>
+        table, th, td{
+            margin-left:auto; 
+            margin-right:auto;
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient( 90deg, #FDD819 10%, #E80505 100%);">
+    <h2 style="text-align: center; background-color: goldenrod;"><u>WELCOME TO ROME!!</u></h2>
+    <p style="font-size: 20px">
+        In this section we will see some exciting things which are stored for you in Rome. Here we will discuss about things like<br>
+        overall climate, food culture, tourist spot etc. So scroll down for the information you would like to get!!
+    </p>
+    <hr>
+    <p id="Weather" style="font-size: 25px;">
+        Here we see the overall climate of Rome city throughout the year. Click the button below to see.<img srcset="weather.png" align="right" width="100" height="100"><br>
+        <button title="Click me to see" onclick="change_text1()">Click me...</button> 
+    </p>
+    <br>
+    <hr>
+    <p id="Food" style="font-size: 25px;">
+        Here we see some of the food that are famous in Rome!!Click the button below to see.<img srcset="food.png" align="right" width="90" height="90"><br>
+        <button title="Click me to see" onclick="change_text2()">Click me...</button>
+    </p>
+    <hr>
+    <p style="font-size: 20px;">
+        <u>Now we sort some of the hotels present at Rome.</u><img srcset="hotel.png" align="right" width="100" height="100">
+        <table style="text-align: center;">
+            <tr>
+                <th>Hotel Name</th>
+                <th>Location</th>
+                <th>Cost of staying</th>
+                <th>Facilities</th>
+            </tr>
+            <tr>
+                <td>ibis Styles Roma Vintage</td>
+                <td>Via Torre di Mezzavia, 25, 00173 Roma RM</td>
+                <td>7698/Night</td>
+                <td>Parking, Laundry, Breakfast, Air conditioned</td>
+            </tr>
+            <tr>
+                <td>Napoleon Hotel Roma</td>
+                <td>P.za Vittorio Emanuele II, 105, 00185 Roma RM</td>
+                <td>9633/Night</td>
+                <td>Parking, Laundry, Breakfast, Air conditioned, Resturant</td>
+            </tr>
+            <tr>
+                <td>Hotel Roma Tor Vergata</td>
+                <td>Via Vico Viganò, 24, 00133 Roma RM</td>
+                <td>4416/Night</td>
+                <td>Pool, Breakfast, Parking, Air conditioned</td>
+            </tr>
+            <tr>
+                <td>Spagna Boutique Luxury</td>
+                <td>Via del Corso, 32, 00187 Roma RM</td>
+                <td>11,364/Night</td>
+                <td>Parking, Laundry, Breakfast, Air conditioned, Resturant</td>
+            </tr>
+            <tr>
+                <td>Hotel Trevi</td>
+                <td>Vicolo del Babuccio, 20/21, 00187 Roma RM</td>
+                <td>23,605/Night</td>
+                <td>Parking, Laundry, Breakfast, Air conditioned</td>
+            </tr>
+            <tr>
+                <td>Hotel Artemide</td>
+                <td>Via Nazionale, 22/Int.B, 00184 Roma RM</td>
+                <td>23,938/Night</td>
+                <td>Parking, Laundry, Breakfast, Air conditioned</td>
+            </tr>
+        </table>
+        <h4>Note- The cost given here is average cost of staying per night in INR. Actual prices may vary.</h4>
+    </p>
+    <hr>
+    <p style="font-size: 20px;">
+        Now we will see famous tourist spots in Rome which is must to be seen! For this click the button below.<br>
+        <a href="Romespot.html"><button>Click Here</button></a>
+    </p>
+</body>
+<script>
+    function change_text1(){
+        document.getElementById("Weather").innerHTML="In Rome, the summers are short, hot, humid, dry, and mostly clear and the winters are long, cold, wet, and partly cloudy. Over the course of the year, the temperature typically varies from 37°F to\n"+
+        "89°F and is rarely below 28°F or above 95°F. Based on the beach/pool score, the best time of year to visit Rome for hot-weather activities is from late June to late August.\n"+
+        "The hot season lasts for 2.8 months, from June 17 to September 10, with an average daily high temperature above 82°F. The hottest month of the year in Rome is August, with an average high of 87°F and low of 65°F.\n"+
+        "The cool season lasts for 3.9 months, from November 20 to March 17, with an average daily high temperature below 60°F. The coldest month of the year in Rome is January, with an average low of 37°F and high of 54°F."
+    }
+    function change_text2(){
+        document.getElementById("Food").innerHTML=document.write='<p>Some of the dishes that you can try in Rome are-<br><ol type="1"><li>Allesso di Bollito, made of simmered beef.At Mordi E Vai in the Testaccio Market, however, allesso di bollito – simmered beef – is very much alive.\n'+ 
+            'The stall serves the tender meat on bread dipped in the meat’s savoury juices</li><li>In Rome, Pizzas are a must to taste. Filled with different types of cheese, thick crust, topped with herbs and meat slices is a must food.</li>\n'+
+            '<li>Pasta is another one of the most famous and world wide food. Made out of durum wheat and cooked slowly wih psta sauce, infuse a different taste all together Experience their varities of pastas right away at any resturant and hotel!</li></ol></p>'
+    }
+</script>
+</html>

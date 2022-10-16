@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris</title>
+    <style>
+        table, th, td{
+            margin-left:auto; 
+            margin-right:auto;
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient( 90deg, #5EFCE8 10%, #736EFE 100%);">
+    <h2 style="text-align: center; background-color: blue;"><u>WELCOME TO PARIS!!</u></h2>
+    <p style="font-size: 20px">
+        In this section we will see some exciting things which are stored for you in Paris. Here we will discuss about things like<br>
+        overall climate, food culture, tourist spot etc. So scroll down for the information you would like to get!!
+    </p>
+    <hr>
+    <p id="Weather" style="font-size: 25px;">
+        Here we see the overall climate of Paris city throughout the year. Click the button below to see.<img srcset="weather.png" align="right" width="100" height="100"><br>
+        <button title="Click me to see" onclick="change_text1()">Click me...</button> 
+    </p>
+    <br>
+    <hr>
+    <p id="Food" style="font-size: 25px;">
+        Here we see some of the food that are famous in Paris!!Click the button below to see.<img srcset="food.png" align="right" width="90" height="90"><br>
+        <button title="Click me to see" onclick="change_text2()">Click me...</button>
+    </p>
+    <hr>
+    <p style="font-size: 20px;">
+        <u>Now we sort some of the hotels present at Paris.</u><img srcset="hotel.png" align="right" width="100" height="100">
+        <table style="text-align: center;">
+            <tr>
+                <th>Hotel Name</th>
+                <th>Location</th>
+                <th>Cost of staying</th>
+                <th>Facilities</th>
+            </tr>
+            <tr>
+                <td>Les Bulles de Paris</td>
+                <td>32 Rue des Écoles</td>
+                <td>13,953/Night</td>
+                <td>Parking, Breakfast, Free Wifi, Room service, Air conditioned</td>
+            </tr>
+            <tr>
+                <td>ibis Paris Porte de Bercy</td>
+                <td>2 Pl. de l'Europe, 94220 Charenton-le-Pont</td>
+                <td>5843/Night</td>
+                <td>Parking, Breakfast, Free Wifi, Room service, Air conditioned, Resturant</td>
+            </tr>
+            <tr>
+                <td>Novotel Paris Center Tour Eiffel</td>
+                <td>61 Quai de Grenelle, 75015 Paris</td>
+                <td>16,137/Night</td>
+                <td>Parking, Breakfast, Free Wifi, Room service, Air conditioned, Resturant</td>
+            </tr>
+            <tr>
+                <td>Hotel Georgette</td>
+                <td>36 Rue du Grenier-Saint-Lazare, 75003 Paris</td>
+                <td>10,627/Night</td>
+                <td>Laundry, Breakfast, Free Wifi, Air conditioned</td>
+            </tr>
+            <tr>
+                <td>Hotel Atrium</td>
+                <td>68-72 Bd Henri Sellier, 92150 Suresnes</td>
+                <td>5330/Night</td>
+                <td>Laundry, Breakfast, Free Wifi, Air conditioned</td>
+            </tr>
+            <tr>
+                <td>Hotel Rose Bourbon</td>
+                <td>53 Rue de l'Église, 75015 Paris</td>
+                <td>9231/Night</td>
+                <td>Laundry, Breakfast, Free Wifi, Air conditioned</td>
+            </tr>
+            <tr>
+                <td>Hotel Park Lane Paris</td>
+                <td>4 Rue La Boétie, 75008 Paris</td>
+                <td>12,421/Night</td>
+                <td>Laundry, Breakfast, Free Wifi, Air conditioned, Resturant</td>
+            </tr>
+        </table>
+        <h4>Note- The cost given here is average cost of staying per night in INR. Actual prices may vary.</h4>
+    </p>
+    <hr>
+    <p style="font-size: 20px;">
+        Now we will see famous tourist spots in Paris which is must to be seen! For this click the button below.<br>
+        <a href="Parisspot.html"><button>Click Here</button></a>
+    </p>
+</body>
+<script>
+    function change_text1(){
+        document.getElementById("Weather").innerHTML="In Paris, the summers are short, comfortable, and partly cloudy and the winters are very cold, windy,and mostly cloudy. Over the course of the year, the\n"+
+        "temperature typically varies from 35°F to 78°F. Based on the tourism score, the best time of year to visit is from mid June to mid September.The warm season lasts for 2.9 months, from June 13 to September 10, with an average daily high temperature above 71°F. The hottest month of\n"+
+        "the year in Paris is July, with an average high of 76°F and low of 58°F. The cool season lasts for 3.7 months, from November 16 to March 7, with an average daily high temperature below 51°F. The coldest month of the\n"+
+        "year in Paris is January, with an average low of 36°F and high of 44°F."
+    }
+    function change_text2(){
+        document.getElementById("Food").innerHTML=document.write='<p>Some of the dishes that you can try in Paris are-<br><ol type="1"><li>Start your day like a true Parisian and get yourself an all-butter croissant for breakfast! Croissants may look simple, but these perfectly flaky pastries require time (we’re talking several days!) and a whole set of skills to perfect.\n'+
+            'A great option is La Maison d’Isabelle (47ter Boulevard Saint-Germain), which recently received an award for Best Croissant in Paris.</li><li>Escargots, are presented in their shells and stuffed with a mouthwatering combination of garlic, herbs and butter.\n'+
+            'However, escargots are now so popular that countless Paris restaurants have put their own creative spin on the dish. You’ll now find snails served with Roquefort, truffle, and even curry-based sauces, and so much more.\n'+
+            ' L’Escargot Montorgueil is a true Parisian institution that has been serving snails for nearly 200 years. You can sample the traditional Burgundy variety, or spice things up and try the curry, foie gras, or truffle butter versions!</li>\n'+
+            '<li> macarons are possibly the best thing that ever happened to French sweets. Their delicate and airy shells are made of almond flour, and filled with a rich, luscious interior.\n'+
+            'Popular flavors include pistachio, chocolate, vanilla or raspberry, but don’t be scared to try some of the more unusual options: salted butter caramel, green tea, or rose petals, just to name a few.\n'+
+            'Paris abounds with macaron specialty shops, most of them offering incredible quality. Pierre Hermé remains a clear favorite of ours for his creativity—and his Balinese dark chocolate macaron.</li>\n'+
+            '<li>A great jambon-beurre is all about the quality of its only three ingredients: Parisian ham, butter and, of course, the deliciously crispy baguette that’s holding the magic together.\n'+
+            'It is usually made up of crusty baguette, excellent French butter, and real Parisian ham. Made from carefully-selected ingredients, the jambon-beurre sandwich at La Fontaine de Belleville is famous throughout the city. You can opt to have it to go, or sit down at the terrace and enjoy it alongside a green salad.</li>\n'+
+            '<li>Steak tartare is a bistro classic that consists of raw ground beef seasoned with capers, onion and black pepper. Traditionally, you’ll find it served with a raw egg yolk on top.  Le Severo is heaven for carnivores, so you can expect the meat quality to be absolutely top notch. Their amazingly tasty steak tartare comes with french fries or green beans.</li></ol></p>'
+    }
+</script>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London</title>
+    <style>
+        table, th, td{
+            margin-left:auto; 
+            margin-right:auto;
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient( 90deg, #FEC163 10%, #DE4313 100%);">
+    <h2 style="text-align: center; background-color: darkorange;"><u>WELCOME TO LONDON!!</u></h2>
+    <p style="font-size: 20px">
+        In this section we will see some exciting things which are stored for you in London. Here we will discuss about things like<br>
+        overall climate, food culture, tourist spot etc. So scroll down for the information you would like to get!!
+    </p>
+    <hr>
+    <p id="Weather" style="font-size: 25px;">
+        Here we see the overall climate of London city throughout the year. Click the button below to see.<img srcset="weather.png" align="right" width="100" height="100"><br>
+        <button title="Click me to see" onclick="change_text1()">Click me...</button> 
+    </p>
+    <br>
+    <hr>
+    <p id="Food" style="font-size: 25px;">
+        Here we see some of the food that are famous in London!!Click the button below to see.<img srcset="food.png" align="right" width="90" height="90"><br>
+        <button title="Click me to see" onclick="change_text2()">Click me...</button>
+    </p>
+    <hr>
+    <p style="font-size: 20px;">
+        <u>Now we sort some of the hotels present at London.</u><img srcset="hotel.png" align="right" width="100" height="100">
+        <table style="text-align: center;">
+            <tr>
+                <th>Hotel Name</th>
+                <th>Location</th>
+                <th>Cost of staying</th>
+                <th>Facilities</th>
+            </tr>
+            <tr>
+                <td>Park Grand London Hyde Park</td>
+                <td>78-82 Westbourne Terrace, London W2 6QA</td>
+                <td>14,300/Night</td>
+                <td>Free Wifi, Resturant, Security, Air conditioned rooms</td>
+            </tr>
+            <tr>
+                <td>Travelodge London City Hotel</td>
+                <td>20 Middlesex St, London E1 7EX</td>
+                <td>4336/Night</td>
+                <td>Resturant, Bar/Cafeteri, Wifi, Security</td>
+            </tr>
+            <tr>
+                <td>Park Grand Paddington Court</td>
+                <td>27 Devonshire Terrace, London W2 3DP</td>
+                <td>14,301/Night</td>
+                <td>Free Wifi, Resturant, Security, Air conditioned rooms</td>
+            </tr>
+            <tr>
+                <td>Holiday Inn London(West)</td>
+                <td>4 Portal Way, London W3 6RT</td>
+                <td>7701/Night</td>
+                <td>Laundry,Free Wifi, Resturant, Security, Air conditioned rooms </td>
+            </tr>
+            <tr>
+                <td>Hotel Indigo London-Kenigston</td>
+                <td>34 - 44 Barkston Gardens, London SW5 0EW</td>
+                <td>17,777/Night</td>
+                <td>Laundry,Free Wifi, Resturant, Security, Air conditioned rooms, Room service</td>
+            </tr>
+            <tr>
+                <td>Millenium Gloucester Hotel</td>
+                <td>4-18 Harrington Gardens, South Kensington</td>
+                <td>9983/Night</td>
+                <td>Laundry,Free Wifi, Resturant, Security, Air conditioned rooms, Paid parking</td>
+            </tr>
+        </table>
+        <h4>Note- The cost given here is average cost of staying per night in INR. Actual prices may vary.</h4>
+    </p>
+    <hr>
+    <p style="font-size: 20px;">
+        Now we will see famous tourist spots in London which is must to be seen! For this click the button below.<br>
+        <a href="Londonspot.html"><button>Click Here</button></a>
+    </p>
+</body>
+<script>
+    function change_text1(){
+    document.getElementById("Weather").innerHTML = "In London, the summers are short, comfortable, and partly cloudy\nand the winters are long, very cold, windy, and mostly cloudy.\nBased on the tourism score, the best time of year to visit London for warm-weather activities is from late June to early September.\nThe warm season lasts for 2.8 months, from June 15 to September 7, with an average daily high temperature above 69°F. The hottest month of the year in London is July, with an average high of 73°F and low of 59°F.\nThe cool season lasts for 4.0 months, from November 16 to March 18, with an average daily high temperature below 53°F.";
+}
+    function change_text2(){
+        document.getElementById("Food").innerHTML=document.write='<p>Some of the dishes that you can try in London are-<br><ol type="1"><li>Fish and chips are a delicious, fried dish that consists of batter-coated, fried fish and chips.</li>\n'+
+            '<li>Full English Breakfast. It includes bacon, eggs, sausages, black pudding, tomatoes, baked beans, mushrooms, and toast.</li>\n'+
+            '<li>One of the most historic and famous foods to try in London is the Sunday Roast. It is usually made out of rosted meat, stuffings like gravy or smashed potattoes or rosted potatoes and vegetables.</li>\n'+
+            '<li>Pie and Mash, a classic comfort food, pie served with a pile of creamy mashed potatoes and lashings of gravy is a real British treat!</li></ol></p><br> Some famous resturants for dine out are-Resturant Ours, Quaglinos, Kiln, Clove Club, Gloria.'
+    }
+
+</script>
+</html>
