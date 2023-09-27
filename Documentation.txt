@@ -1,0 +1,19 @@
+Introduction-
+This project is on automating hardware task like using mouse to move the cursor and increase, decrease, volume of your computer system. Through this, we can reduce our
+dependency on a main hardware component, mouse of a PC or a laptop. This has been created with the computer vision libraries of python opencv, pyautogui and mediapipe.
+This program uses the system camera to detect your tips of thumb and index fingers and control your mouse and volume with ease.
+
+Documentation-
+This program is made using python programming language and it's above mentioned libraries along with numpy and time. The function def control_volume(): controls
+the volume and the function def virtual_mouse_control(): controls the mouse of the computer.
+The function virtual_mouse_control captures the video of your hands and detect your thumb and index fingers and their tips. After that you can move the mouse cursor and click
+but make sure you are within the frame's range that can detect your fingers.
+
+The function control_volume controls the volume of the system. It also traces the tips of thum and index fingers of either hands and can be used to increase or decrease
+volume. The camera captures the motion and distance between the tips of the fingers and decide wether to increase or decrease the volume. The sound of the system increase
+when the distance between them is longer and reduces when it is small.
+
+How to use it- Make sure you have python and necessary libraries mentioned above installed in your system. After that when you run the program you will be prompted to 
+enter  input. Selecting 1 gives the option of voice control, selecting 2 gives the option of mouse control, selecting 3 gives the option of exiting.
+After you have completed using either of them, click on the frame capturing the video and press escape key, the running program would be terminated and you will again
+require to enter a option.
