@@ -75,16 +75,16 @@ int main()
     int choice;
 
     do {
-        cout << "Select operation: \n"
-             << "1. Addition\n"
-             << "2. Subtraction\n"
-             << "3. Multiplication\n"
-             << "4. Division\n"
-             << "5. Percentage\n"
-             << "6. Factorial\n"
-             << "7. Square\n"
-             << "8. Square Root\n"
-             << "0. Exit\n"
+        cout << "Select operation:"<<endl
+             << "1. Addition"<<endl
+             << "2. Subtraction"<<endl
+             << "3. Multiplication"<<endl
+             << "4. Division"<<endl
+             << "5. Percentage"<<endl
+             << "6. Factorial"<<endl
+             << "7. Square"<<endl
+             << "8. Square Root"<<endl
+             << "0. Exit"<<endl
              << "Enter choice (0-8): ";
         cin >> choice;
 
