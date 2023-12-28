@@ -1,13 +1,10 @@
-
     body {
         margin: 0;
         padding: 0;
         height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         background: linear-gradient(to bottom, #000000 35%, #003366 100%);
-        color: #fff; /* Text color for better visibility on darker background */
+        color: bisque;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
       
   
@@ -29,44 +26,60 @@
     }
   }
 
-.title{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    margin-bottom: 500px;
-    margin-left: 350px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.header h2{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
-    background-color: black;
-    padding: 10px;
-    margin-bottom: 500px;
-    margin-left: 100px;
+  background-color: black;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
 }
 
-.right{
-    margin-left: 15px;
+.right {
+  margin-left: 15px;
 }
 
-.design{
-    border: none;
-    outline: none;
-    background-color: rgb(97, 201, 201);
-    border-radius: 15px;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
-    font-size: larger;
-    cursor: pointer;
+.design {
+  border: none;
+  outline: none;
+  background-color: rgb(97, 201, 201);
+  border-radius: 15px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.datasection {
+  margin-top: 190px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; 
+}
+
+table, th, td {
+  border: 1px solid #fff; 
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
 }
