@@ -1,7 +1,7 @@
     body {
         margin: 0;
         padding: 0;
-        height: 100vh;
+        height: 190vh;
         background: linear-gradient(to bottom, #000000 35%, #003366 100%);
         color: bisque;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -9,7 +9,7 @@
       
   
   
-  img {
+  .rearth {
     position: absolute;
     top: 0;
     left: 0;
@@ -45,7 +45,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end; /* Align items to the right */
+  justify-content: flex-end; 
   align-items: center;
 }
 
@@ -73,6 +73,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px; 
+  font-size: larger;
 }
 
 table, th, td {
@@ -82,4 +83,27 @@ table, th, td {
 th, td {
   padding: 10px;
   text-align: center;
+}
+
+.sections section{
+  margin-top: 90px;
+  font-size: larger;
+}
+
+.pic{
+  
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  margin-left: auto;
+  display: block;
+  height: 200px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.pic:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
 }
