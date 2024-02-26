@@ -73,7 +73,7 @@ y
 # In[27]:
 
 
-x_test, x_train, y_test, y_train=train_test_split(x, y, test_size=0.2)
+x_train,  x_test,  y_train, y_test=train_test_split(x, y, test_size=0.2)
 
 
 # In[32]:
